@@ -1,13 +1,12 @@
 import { PageTitle } from '../PageTitle/PageTitle';
 import s from './App.module.css';
-// import { EventBoard } from '../EventBoard/EventBoard';
-// import upcomingEvents from '../../upcoming-events.json';
-
+import { EventBoard } from '../EventBoard/EventBoard';
+import upcomingEvents from '../../upcoming-events.json';
 export const App = () => {
   return (
     <>
       <PageTitle text="24th Core Worlds Coalition Conference" />
-      {/* <EventBoard events={upcomingEvents} /> */}
+      <EventBoard events={upcomingEvents} />
     </>
   );
 };

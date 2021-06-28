@@ -1,11 +1,12 @@
-export const Event = ({ name, location }) => {
+export const Event = ({ name, location, speaker, start, end, duration }) => {
   return (
     <div>
-      <h2></h2>
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
+      <h2>{name}</h2>
+      <p>{location}</p>
+      <p>{speaker}</p>
+      <p>{start}</p>
+      <p>{end}</p>
+      <p>{duration}</p>
     </div>
   );
 };
