@@ -11,9 +11,7 @@ export const EventBoard = ({ events }) => {
           speaker={event.speaker}
           start={event.time.start}
           end={event.time.end}
-          duration={
-            (new Date(event.time.end) - new Date(event.time.start)) / 1000
-          }
+          chip={event.type}
         />
       ))}
     </div>

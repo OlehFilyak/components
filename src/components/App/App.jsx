@@ -1,5 +1,5 @@
 import { PageTitle } from '../PageTitle/PageTitle';
-import s from './App.module.css';
+// import s from './App.module.css';
 import { EventBoard } from '../EventBoard/EventBoard';
 import upcomingEvents from '../../upcoming-events.json';
 export const App = () => {
